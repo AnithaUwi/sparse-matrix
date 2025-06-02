@@ -1,19 +1,19 @@
 """
 Sparse Matrix Operations
 
-Author: [Your Name]
+Author: Anitha
 Description: This program reads two sparse matrices from input files,
              performs addition, subtraction, or multiplication, and writes
              the result to an output file. The matrices are stored using
              custom data structures to optimize memory usage.
 
-Note: No built-in libraries (like numpy or regex) are used as per assignment rules.
+
 """
 
 class SparseMatrix:
     def __init__(self, file_path=None, rows=None, cols=None):
         """
-        Initialize a sparse matrix either from file or using dimensions.
+        Initialized a sparse matrix either from file or using dimensions.
         """
         self.data = {}  # Dictionary to store non-zero values with keys as (row, col)
         if file_path:
@@ -147,7 +147,7 @@ class SparseMatrix:
 
 def main():
     """
-    Command-Line Interface: Allows user to choose operation and input files.
+    Command-Line Interface that  Allows  a user to choose operation and input files.
     """
     print("Sparse Matrix Operations")
     print("1. Addition")
